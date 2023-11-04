@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Redirect</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  (function() {
+    var surveys = ['https://forms.gle/TsFZadn1gPtK7Xdt9', 'https://forms.gle/ovqNXdMfndPPUHV16'];
+    var randomSurvey = surveys[Math.floor(Math.random() * surveys.length)];
+    window.location.href = randomSurvey;
+  })();
+</script>
+
+</body>
+</html>
